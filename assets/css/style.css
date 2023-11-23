@@ -3,6 +3,10 @@
     src: url('../fonts/Inter-Bold.ttf');
 }
 @font-face {
+    font-family: 'Inter-Footer';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
     font-family: 'MrDafoe';
     src: url('../fonts/MrDafoe-Regular.ttf');
 }
@@ -200,7 +204,77 @@ html {
     background-color: rgba(0, 0, 0, 0.3);
 }
 /* ! Article beendet */
-/*  */
+/* * Img Children */
+
+.sc__img img {
+    display: block;
+    width: 100vw;
+}
+
+/* * Section Conclusion */
+
+.sc__conclusion {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40%;
+}
+
+.sc__conclusion div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 360px;
+    padding: 88px 0 88px 88px;
+}
+
+.sc__conclusion p {
+    color: white;
+    font-family: Inter;
+    font-size: 3rem;
+}
+
+.a__donate {
+    width: min-content;
+    color: white;
+    text-decoration: none;
+}
+
+.button__donate {
+    border: 2px solid white;
+    padding: 16px 32px;
+    background-color: black;
+}
+.button__donate:hover {
+    box-shadow: 10px 5px 0px 0px white;
+}
+/* .a__donate:hover {
+    color: red;
+} */
+
+/* ! Main fertig */
+
+/* * Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Inter-Footer';
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-green)
+}
+
 
 
 
