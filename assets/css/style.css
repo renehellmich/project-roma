@@ -93,6 +93,15 @@ html {
     font-family: 'MrDafoe';
     font-size: 2rem;
     color:var(--color-yellow);
+    position: relative;
+}
+
+.sc__h1 span {
+    font-family: 'Helvetica';
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    padding-left: 35px;
 }
 
 /* * Section Portrait */
