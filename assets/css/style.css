@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'MrDafoe';
+    src: url('../fonts/MrDafoe-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica\ CE\ Bold.otf');
+}
+@font-face {
+    font-family: 'Santio';
+    src: url('../fonts/Santio\ Bold.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #e7bc0e;
+    --color-green: #6bc1a3;
+    --color-rosa: #cb91b6;
+    --color-blue: #7eb8e1;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* ! Definition der IMGs */
+.article__main {
+    content: '';
+    background: url('../img/cleo-topper.jpg') center/cover fixed;
+}
+
+.img__nav {
+    width: 20px;
+    height: 20px;
+}
+
+.img__sc {
+    width: 105px;
+    height: 105px;
+}
+
+/* ! Start Coding Styling */
+
+/* * Nav Bar */
+
+.article__main nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px 0 0;
+}
+
+.article__main nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* * Section Top */
+
+.sc__h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 130px 0 130px 130px;
+}
+
+.sc__h1 p:first-child {
+    font-family: 'Inter';
+    font-size: 4.125rem;
+    height: 720px;
+    width: 265.96px;
+    color: white;
+}
+.sc__h1 p:last-child {
+    font-family: 'MrDafoe';
+    font-size: 2rem;
+    color:var(--color-yellow);
+}
+
+/* * Section Portrait */
+
+.sc__portrait {
+    font-family: 'Santio';
+    font-size: 2rem;
+    color: var(--color-green);
+    margin: 0 0 0 240px;
+}
+.sc__portrait p {
+    width: 490px;
+}
+
+.sc__portrait span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ! Settings Section Workers, Pay, Health */
+/* * */
+
+.sc__facts_settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 260px;
+
+}
+
+.sc__facts_settings div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 790px;
+}
+
+/* * Section Workers */
+
+.sc__workers {
+    font-family: 'Santio';
+    color: var(--color-yellow);
+}
+
+.sc__workers h2 {
+    font-size: 8.75rem;
+}
+.sc__workers p {
+    font-size: 3.125rem;
+}
+.sc__workers span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 2.625rem;
+}
+
+/* * Section Pay */
+
+.sc__pay {
+    font-family: 'Santio';
+    color: var(--color-rosa);
+}
+.sc__pay p:first-child {
+    font-size: 3.25rem;
+}
+.sc__pay p:first-child span {
+    color: white;
+    font-size: 2.625rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.sc__pay p:last-child {
+    font-size: 6rem;
+}
+
+/* * Section health */
+
+.sc__health {
+    font-family: 'Santio';
+    color: var(--color-green);
+}
+
+.sc__health p:first-child {
+    font-size: 7rem;
+}
+.sc__health p:last-child {
+    font-size: 3.25rem;
+}
+.sc__health p:last-child span {
+    color: white;
+    font-size: 2.625rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* * Descriptions */
+
+.sc__description {
+    font-family: 'Santio';
+    color:var(--color-blue);
+    padding-bottom: 130px;
+}
+.sc__description div {
+    font-size: 2rem;
+    padding-right: 290px;
+}
+
+.sc__description span {
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* ! Article beendet */
+/*  */
+
+
+
+
