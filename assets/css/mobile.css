@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 130px 0 0 10vw;
+        margin: 130px 10vw 0 10vw;
         padding: 0;
     
     }
@@ -29,7 +29,12 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 90vw;
+        width: 80vw;
+    }
+
+    .sc__workers h2 {
+        word-wrap:break-word;
+        white-space:pre-line;
     }
 
     .sc__conclusion {
