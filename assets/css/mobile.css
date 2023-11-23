@@ -1,0 +1,34 @@
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .sc__h1 {
+        display: flex;
+        flex-direction: column;
+        gap: 88px;
+        margin: 130px 10vw 130px 10vw;
+    }
+
+    .sc__h1 p:first-child {
+        font-family: 'Inter';
+        font-size: 4.125rem;
+        width: 80vw;
+        height: auto;
+        color: white;
+    }
+    .sc__facts_settings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 130px 0 0 10vw;
+        padding: 0;
+    
+    }
+    .sc__facts_settings div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80vw;
+    }
+}
