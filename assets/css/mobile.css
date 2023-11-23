@@ -1,6 +1,6 @@
 @media only screen and (max-width: 576px) {
     html {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .sc__h1 {
@@ -29,6 +29,22 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        width: 90vw;
+    }
+
+    .sc__conclusion {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0
+    }
+    
+    .sc__conclusion div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         width: 80vw;
+        padding: 88px 10vw 88px 10vw;
     }
 }
